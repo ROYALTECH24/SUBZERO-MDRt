@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~OmRjzJrA#F4BqcVtRBW0s_615lHYQx5dCfUR37F8-_iHaf_Jfg30",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
     MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
@@ -39,7 +39,7 @@ module.exports = {
     ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/zv76KffW/IMG-20250115-WA0020.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
-    ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
+    ANTI_BAD: process.env.ANTI_BAD || "true",                  // Block bad words?
     ANTI_LINK: process.env.ANTI_LINK || "true",                 // Block links in groups?
     ANTI_VV: process.env.ANTI_VV || "true",                     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",          // Auto-delete links?
